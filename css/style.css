@@ -1,0 +1,74 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.name-color {
+  color: orange;
+}
+.header-ancher {
+  margin: 10px;
+  font: bold;
+  text-decoration: none;
+  float: right;
+}
+.header-section {
+  margin-right: 20px;
+  padding: 10px;
+}
+.main-section {
+  height: 500px;
+  font-size: 40px;
+}
+.hire-me-btn {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, lightBlue, darkBlue);
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 700;
+}
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.half-width img {
+  width: 100%;
+}
+
+.about-section {
+  float: left;
+  font-size: 40px;
+}
+.download-cv-btn {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, lightSalmon, tomato);
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 700;
+}
+.about-half-width {
+  width: 30%;
+  float: left;
+  margin-left: 1cm;
+  font-size: 30px;
+}
+.project-section {
+  width: 1000;
+  height: auto;
+  align-items: flex-start;
+}
+.first-project {
+  width: 50%;
+}
+.second-project {
+  width: 50%;
+}
+.latest-style {
+  color: tomato;
+}
+.project-head {
+  align-content: center;
+}
