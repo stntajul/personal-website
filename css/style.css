@@ -5,20 +5,31 @@ body {
 .name-color {
   color: orange;
 }
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+}
+.main-para {
+  font-size: 25px;
+}
+.about-para {
+  font-size: 25px;
+}
 .header-ancher {
   margin: 10px;
   font: bold;
   text-decoration: none;
   float: right;
 }
-.header-section {
-  margin-right: 20px;
-  padding: 10px;
+section {
+  height: 1000px;
 }
-.main-section {
-  height: 500px;
-  font-size: 40px;
+.header-main-div {
+  width: 200px;
 }
+
 .hire-me-btn {
   text-decoration: none;
   background-image: linear-gradient(45deg, lightBlue, darkBlue);
@@ -37,10 +48,6 @@ body {
   width: 100%;
 }
 
-.about-section {
-  float: left;
-  font-size: 40px;
-}
 .download-cv-btn {
   text-decoration: none;
   background-image: linear-gradient(45deg, lightSalmon, tomato);
@@ -49,26 +56,13 @@ body {
   color: white;
   font-weight: 700;
 }
-.about-half-width {
+.project-head {
+  text-align: center;
+}
+.third-slice {
   width: 30%;
   float: left;
-  margin-left: 1cm;
-  font-size: 30px;
 }
-.project-section {
-  width: 1000;
-  height: auto;
-  align-items: flex-start;
-}
-.first-project {
-  width: 50%;
-}
-.second-project {
-  width: 50%;
-}
-.latest-style {
-  color: tomato;
-}
-.project-head {
-  align-content: center;
+.third-slice img {
+  width: 70%;
 }
